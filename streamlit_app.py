@@ -3,4 +3,8 @@ import streamlit
 
 streamlit.title('My Parents New Healthy Dinner')
 
-print("Breakfast Menu")
+streamlit.header('Breakfast Menu')
+
+streamlit.text('Oatmeal')
+streamlit.text('Sandwitch')
+streamlit.text('Juice')
